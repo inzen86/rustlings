@@ -2,16 +2,20 @@
 // This is a quiz for the following sections:
 // - Variables
 // - Functions
-// - If
 
 // Mary is buying apples. One apple usually costs 2 Rustbucks, but if you buy
 // more than 40 at once, each apple only costs 1! Write a function that calculates
 // the price of an order of apples given the quantity bought. No hints this time!
 
-// I AM NOT DONE
+// I AM DONE
 
 // Put your function here!
-// fn calculate_apple_price {
+fn calculate_apple_price(apples_amount: i32) -> i32 {
+	if apples_amount > 40 {
+		return apples_amount * 1
+	}
+	apples_amount * 2
+}
 
 // Don't modify this function!
 #[test]
