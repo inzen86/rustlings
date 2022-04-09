@@ -3,7 +3,7 @@
 
 // Execute `rustlings hint generics2` for hints!
 
-// I AM NOT DONE
+// I AM DONE
 
 struct Wrapper<T> {
     value: T,
